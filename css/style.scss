@@ -421,6 +421,7 @@ a {
     .footer_blocks {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     .footer_block {
         margin: 5px 30px;
@@ -435,6 +436,7 @@ a {
             color: #6c6c6c;
             font-size: 12px;
             margin-bottom: 5px;
+            cursor: pointer;
         }
         .social_icon {
             display: flex;

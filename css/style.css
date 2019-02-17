@@ -549,6 +549,8 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .footer .footer_block {
@@ -567,6 +569,7 @@ a {
   color: #6c6c6c;
   font-size: 12px;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 
 .footer .footer_block .social_icon {
