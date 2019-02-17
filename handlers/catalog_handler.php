@@ -13,6 +13,7 @@
     if( isset( $_GET['page'] ) ){
         $page = (int) $_GET['page'];
     }
+    $output['paginationInfo']['page'] = $page;
 
     $link = mysqli_connect('localhost', 'root', '', '29092018_1_3project');
     mysqli_set_charset($link, 'utf8');

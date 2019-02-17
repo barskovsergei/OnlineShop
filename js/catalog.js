@@ -10,6 +10,8 @@ let renderCatalog = (data)=> {
 
         if (i == data.paginationInfo.page ){
             div.classList.add('active');
+        }else{
+            div.classList.remove('active');     
         }
 
         div.innerHTML = i;
